@@ -1,12 +1,53 @@
+:root {
+  --primary: #11224E;
+  --secondary: #F87B1B;
+  --accent: #CBD99B;
+  --bg: #EEEEEE;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #333;
+  background: var(--primary);
   padding: 1em;
+  height: 10vh;
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
+  padding: 1rem;
+  font-family: 'Agave Nerd Font';
+  font-size: x-large;
+}
+
+.navbar a:hover {
+  background: var(--secondary);
+  color: var(--primary);
+}
+
+main {
+  font-size: 18px;
+  line-height: 1.8;
+  padding: 1rem 3rem;
+}
+
+footer {
+  background-color: var(--primary);
+  color: var(--bg);
+  height: 10vh;
+  
+}
+
+footer p {
+  text-align: center;
+  font-family: 'Agave Nerd Font';
+  font-size: x-large;
+  padding-top: 2rem;
 }
