@@ -9,6 +9,11 @@ body {
 
 h1 {
   text-align: center;
+  border: 3px solid teal;
+  background-color: #EBF3F3;
+  border-radius: .25em;
+  padding: 1em 2rem;
+  margin-bottom: 3rem;
 }
 
 h3 {
@@ -28,7 +33,7 @@ h3 {
   padding: 1.2rem;
   margin: 0 auto;
   gap: 1.2rem;
-  width: 70vw;
+  
 }
 
 .gallery img {
